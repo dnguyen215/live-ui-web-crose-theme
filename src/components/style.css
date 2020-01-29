@@ -574,7 +574,7 @@ img {
     transition-duration: 500ms; }
   .about-us-content .about-text a {
     font-weight: 700;
-    color: #959595; }
+    color: #000000; }
     .about-us-content .about-text a i {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms; }
@@ -1005,6 +1005,9 @@ img {
     width: 300px;
     border-radius: 5px;
     padding-left: 15px; }
+    .single-upcoming-events-area .upcoming-events-thumbnail img {
+      filter: brightness(100%);
+    } 
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .single-upcoming-events-area .upcoming-events-thumbnail {
         -webkit-box-flex: 0;
@@ -1306,6 +1309,11 @@ img {
   margin-bottom: 10px;
 }
 
+.footer-area .main-footer-area .single-footer-widget .footer-logo > img {
+  width: 220px;
+  height: 220px;
+}
+
 .footer-area .main-footer-area .single-footer-widget .widget-title {
   font-size: 18px;
   margin-bottom: 10px;
@@ -1384,6 +1392,10 @@ img {
   .footer-area .copywrite-area {
     height: auto;
     padding: 15px 0;
+  }
+  .footer-area .main-footer-area .single-footer-widget .footer-logo > img{
+    width: 130px;
+    height: 130px;
   }
 }
 
